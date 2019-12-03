@@ -1,0 +1,22 @@
+Here i am going to add git cmd from sctrech.
+
+If you are installing git in any instance then use sudo yum install git -y 
+1. git config --global user.name "goyaplg"     --configuring remote username 
+2. git config --global user.email "prakharagoyal@gmail.com"  -- configuring remote user email
+3. optional :- if you are working on new project and you dont have any remote repo then create one folder to create .git local repo.
+4. optional:- after creating folder run "git init" cmd to initialze the .git repo means your .git local repo will create.so it will create empty dir. with .git in given folder.
+5. you work on modified the code or work on codes then it is modified state
+   you want to track  the code or file in .git then commit state
+   and you have group of files and park in to staging area in to .git then it is staged state 
+6. where you work on code that is working directory.
+   Working Dir(Modified the code or work on code)>>>> Staging area (park the file in group togther or singal)>> commit (store the file in to .git local repo)
+7. (vi home.html)   --- you have created the file in working dir.
+8. git status --- it will show untacked files status 
+9. git add . (git add <file name>) -- it will put in to the staging area.
+10. git status -- to check the file.
+11. "git rm --cached home.html"  -- remove the files from stagin area.
+12. "git commit -m "comment about the files" " -- it is going to commit in to .git and it will commit in to object folder.
+13. " git log" ---- you can see the swan and date and time and who had committed the file 
+14. once we commit then entire file does not save in to .git. It save in to objects folder.
+15. "git checkout -- <file>      -- means once you update after the stage your file (git add) then you dont want  modified file in stage then use this cmd and you want modified file then git add .  .
+
