@@ -4,7 +4,7 @@ If you are installing git in any instance then use sudo yum install git -y
 1. git config --global user.name "goyaplg"     --configuring remote username 
 2. git config --global user.email "prakharagoyal@gmail.com"  -- configuring remote user email
 3. optional :- if you are working on new project and you dont have any remote repo then create one folder to create .git local repo.
-4. optional:- after creating folder run "git init" cmd to initialze the .git repo means your .git local repo will create.so it will create empty dir. with .git in given folder.
+4. optional:- after creating folder run "git init" cmd to initialze the .git repo means your .git local repo will create.so it will create empty dir. with .git in given   folder.
 5. you work on modified the code or work on codes then it is modified state
    you want to track  the code or file in .git then commit state
    and you have group of files and park in to staging area in to .git then it is staged state 
