@@ -16,7 +16,17 @@ If you are installing git in any instance then use sudo yum install git -y
 10. git status -- to check the file.
 11. "git rm --cached home.html"  -- remove the files from stagin area.
 12. "git commit -m "comment about the files" " -- it is going to commit in to .git and it will commit in to object folder.
-13. " git log" ---- you can see the swan and date and time and who had committed the file 
+13. " git log" ---- you can see the shahwan and date and time and who had committed the file 
 14. once we commit then entire file does not save in to .git. It save in to objects folder.
 15. "git checkout -- <file>      -- means once you update after the stage your file (git add) then you dont want  modified file in stage then use this cmd and you want modified file then git add .  .
-
+16. "find .git/objects -type f"    -- it will show all present file in object folder.
+17. "git cat-file -p <40 digit shahwan  number>" it will show the data inside the file and tree and parent of the file.
+18. "find .git/objects -type f" you will get all files inside the object folder.
+19. "git diff --staged"    -- this cmd is using for difference between the modified file.
+20.  "git commit -am "commitment"  if you modified the file then directly you can commit it without git add . cmd 
+21.  create  .gitignore using vi editor and after that whatever file you want to ignore you can mention inside the file.
+22. git commit -amend -m "mention your commit"  -- using for changing the commitment.
+23. "git revert <filename> "   if you want to change the commitment then you can use revert cmd.
+24. "git tag -a V1.0 <shahwan number> "commit" "    ---- for tag 
+25. "git reset --soft HEAD~2"   ----- for delete the commit and whatever file inside the commit will move to sstaing area and HEAD~2 means starting two commit will delete.
+26. " git reset --hard HEAD~1.   --- for delete commit and delete all files inside the commit
