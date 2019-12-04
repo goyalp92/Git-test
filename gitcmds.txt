@@ -30,3 +30,5 @@ If you are installing git in any instance then use sudo yum install git -y
 24. "git tag -a V1.0 <shahwan number> "commit" "    ---- for tag 
 25. "git reset --soft HEAD~2"   ----- for delete the commit and whatever file inside the commit will move to sstaing area and HEAD~2 means starting two commit will delete.
 26. " git reset --hard HEAD~1.   --- for delete commit and delete all files inside the commit
+27. git remote add origin <remote repo path>  -- this cmd will use when first time you are pushing the code to remote repo and that is new project.
+28. "git push -u origin master"   for pushing the code in to remote repo.
