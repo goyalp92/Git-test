@@ -32,3 +32,11 @@ If you are installing git in any instance then use sudo yum install git -y
 26. " git reset --hard HEAD~1.   --- for delete commit and delete all files inside the commit
 27. git remote add origin <remote repo path>  -- this cmd will use when first time you are pushing the code to remote repo and that is new project.
 28. "git push -u origin master"   for pushing the code in to remote repo.
+29. "git reset hard~2" it will reset the fisrst two commit with the file and files will come in to working area.
+30. "git fetch"-- it will pull repo from remote to local but not to update working directory. 
+31. " git merge" -- it will merge local to working dir.  git pull = git fetch+ git merge
+32. "git branch <branch name>"    create new branch 
+33. "git branch -a"    to see how many branches are available in local repo
+34. "git checkout <branch name>"    you want to use the branch
+35. "git merge <another branch name> -- merge in to master for that first do checkout master and then merge with different branch 
+
